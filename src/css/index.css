@@ -1,0 +1,57 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 60px;
+  font-size: 20px;
+}
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+li {
+  text-transform: capitalize;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img-card {
+  align-content: center;
+  border-radius: 6px;
+  border: 1px solid grey;
+  margin: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.img-hover:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.img-card p {
+  font-size: 0.8em;
+  padding: 5px;
+  text-align: left;
+}
+
+.img-card img {
+  max-height: 170px;
+  width: auto;
+}
+
+.p_loading {
+  color: red;
+  font-weight: bold;
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
